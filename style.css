@@ -113,6 +113,7 @@ body{
     .search input {
         height: 3.5rem;
         font-size: 0.9rem;
+        margin-right: 8px;
     }
     
     .search button {
