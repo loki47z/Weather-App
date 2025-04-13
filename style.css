@@ -16,7 +16,6 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #56548a);
     color: #fff;
-    margin: 100px auto 0;
     border-radius: 1rem;
     padding: 40px 35px;
     text-align: center;
@@ -93,4 +92,41 @@ body{
     font-size: 1rem;
     margin-top: 10px;
     display: none;
+}
+@media only screen and (max-width: 400px) {
+    .card {
+        padding: 25px 5px;
+    }
+    
+    .weather h1 {
+        font-size: 50px;
+    }
+    
+    .weather h2 {
+        font-size: 28px;
+    }
+    
+    .weather-icon {
+        width: 120px;
+    }
+    
+    .search input {
+        height: 3.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .search button {
+        width: auto;
+        height: auto;
+    }
+    .search button img{
+        width: 1rem;
+        margin: 1rem;
+    }
+    .details{
+        flex-direction: column;
+        .col{
+            padding: 1rem 0;
+        }
+    }
 }
